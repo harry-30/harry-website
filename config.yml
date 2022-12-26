@@ -1,0 +1,45 @@
+baseURL: ""
+languageCode: 'en-us'
+title: 'Harry Duong'
+theme: 'PaperMod'
+
+params:
+  assets: 
+        favicon: "favicon.ico"
+        favicon16x16: "favicon-16x16.png"
+        favicon32x32: "favicon-32x32.png"
+  profileMode:
+        enabled: true
+        title: "Hello."
+        subtitle: "I'm a third year student at University of Toronto specialized in Computer Science."
+        imageUrl: "avatar.jpg"
+        imageWidth: 150
+        imageHeight: 150
+  
+  socialIcons:
+   - name: linkedin
+     url: "https://www.linkedin.com/in/harryduongdev/"
+   - name: github
+     url: "https://github.com/harry-30"
+
+  ShowPostNavLinks: true
+
+
+menu:
+    main:
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 10
+        - identifier: experiences
+          name: Experiences
+          url: /experiences/
+          weight: 20
+        - identifier: categories
+          name: Projects
+          url: /categories/
+          weight: 30
+        - identifier: tags
+          name: Skills
+          url: /tags/
+          weight: 40
